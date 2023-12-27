@@ -29,7 +29,7 @@ new Vue({
   		}
 
   		try{
-  			axios.post("https://alfac-tech.cyclic.app/",data)
+  			axios.post("https://alfac-tech.cyclic.app/apply",data)
   			  .then(() => {
   			  	alert("Form submitted successfully!");
   			  	window.replace("/");
